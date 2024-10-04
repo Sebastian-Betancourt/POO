@@ -9,7 +9,7 @@ public class Taller {
         System.out.println("Apellido: Betancourt");
         System.out.println("Dirección: Bellavista de Calderón");
         System.out.println("Telefono: 0984523160");
-        System.out.println("Semestre: Tercero");
+
 
     }
 }
