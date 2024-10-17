@@ -2,7 +2,7 @@ public class jugador{
     String avatar;
     int edad;
     String pais;
-
+    int saltos=0;
     public jugador(){  /*player1*/
         avatar = "Sebas";
         edad = 20;
@@ -23,20 +23,11 @@ public class jugador{
         System.out.println("El jugador "+avatar+ " esta corriendo");
     }
 
-    public void saltar(){
+    public void saltar(int s){
+        saltos =4+s;
         System.out.println("El jugador "+avatar +" esta saltando");
-
+        System.out.println(saltos);
     }
-    public static void main (String [] args){
-    jugador player1= new jugador();
-    jugador player2 = new jugador("Jairo",20,"mexico");
 
-    player1.correr();
-    player1.patear();
-
-    player2.correr();
-    player2.saltar();
-    player2.patear();
-    }
 }
 
